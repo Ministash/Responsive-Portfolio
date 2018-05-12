@@ -43,7 +43,7 @@ body, html {
     background: #ffff;
     margin-top: 3%;
     border: 1px solid #cccc;
-    height: 900px;
+    height: 1000%;
 }
 
 #aboutme{
@@ -123,33 +123,43 @@ body, html {
 
 #picturewrapper{
     width: 89%;
-    height: 100%;
+    height: 900px;
     margin: 0 auto;
     margin-top: 30px;
 }
 
 #tech1{
-height: 22%;
-width: 40%;
+    height: 30%;
+    width: 48%;
 background: red;
+float: left;
 }
 
-#tech1box{
+.box1class{
 background: #4aaaa5;
 width: 100%;
-height: 20%;
 position: relative;
-bottom: 50px;
-line-height: 220%;
+bottom: 60px;
+line-height: 200%;
 text-align: center;
+color: white;
 }
 
-#tech1image{
+.image1class{
     height: 100%;
     width: 100%;
 }
 
-@media (max-width: 1920px){
+#tech2{
+    height: 30%;
+    width: 48%;
+    background: red;
+    float: left;
+    margin-left: 4%;
+    }
+    
+
+@media (max-width: 1950px){
     #infobox{
        width: 45%;
 
@@ -195,17 +205,17 @@ text-align: center;
  
   @media (max-width: 640px){
   
-     #myname{
-         position: relative;
-         bottom: 163px;
-         right: 22px;
-         height: 80px;
-         width: 109.5%;
-         color: #ffff;
-         text-align: center;
-         line-height: 80px;
-         background: #4aaaa5;
-     }
+    #myname{
+        position: relative;
+        bottom: 163px;
+        right: 32px;
+        height: 80px;
+        width: 112%;
+        color: #ffff;
+        text-align: center;
+        line-height: 80px;
+        background: #4aaaa5;
+    }
  
      #header{
          width: 100%;
@@ -215,16 +225,18 @@ text-align: center;
          border-bottom: 2px solid #cccccc; 
      }
 
-     #tech1box{
+     .box1class{
         line-height: 380%;
         text-align: center;
+        position: relative;
+        bottom: 100px;
         }
  
  
-     #navwrap {
-         left: 33%;
-         top:30%;
-     }
+        #navwrap {
+            left: 32%;
+            top:30%;
+        }
   
     #img{
         width: 100%;
@@ -235,6 +247,15 @@ text-align: center;
         height:40%;
         width: 90%;
         margin: 0 auto;
+        float: none;
+    }
+
+    #tech2{
+        height:40%;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+        float: none;
     }
  
  }
@@ -259,4 +280,3 @@ text-align: center;
                 top:30%;
             }
             }
-    
