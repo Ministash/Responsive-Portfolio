@@ -21,47 +21,32 @@ body, html {
     font-weight: bold;
 }
 
-#contactwrapper{
-    margin-left: 10px;
-    width: 900px;
-    height: 600px;
-    margin-top: 30px;
-}
-
-
-#picturewrapper{
-    width: 535px;
-    height: 600px;
-    margin-top: 30px;
-    margin-left: 30px;
-}
-
 #header{
     width: 100%;
     height: 100px;
     background: #ffff;
-    margin-top: -8px;
+    margin-top: -30px;
     border-bottom: 2px solid #cccccc; 
 }
 
 .mainwrapper{
-    width: 960px;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
 }
 
 #infobox{
-    width: 960px;
-    height: 800px;
+    width: 60%;
     background: #ffff;
-    margin-top: 0px;
+    margin-top: 3%;
     border: 1px solid #cccc;
+    height: 100%;
 }
 
 #aboutme{
     border-bottom: 3px solid #dddd;
     margin: 0 auto;
-    width: 900px;
+    width: 89%;
     height: 100px;
     text-align: left;
     line-height: 100px;
@@ -80,6 +65,22 @@ body, html {
     background: #4aaaa5;
 }
 
+#infocontainer{
+    width: 89%;
+    margin: 0 auto;
+}
+
+#img{
+    float: left;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+#page1text{
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
 .navtext{
     height: 20px;
     color: rgba(153, 152, 152, 0.867);
@@ -90,9 +91,8 @@ body, html {
     height: 30px;
     width: 280px;
     position: relative;
-    left: 940px;
-    bottom: 90px;
-    margin-left: -200px;
+    left: 75%;
+    top: 43%;
     font-weight: bold;
 }
 
@@ -120,7 +120,7 @@ body, html {
     width: 100%;
     height: 70px;
     background: #666666;
-    margin-top: 104px;
+    margin-top: 360px;
     border-top: 10px solid #4aaaa5; 
     text-align: center;
     line-height: 95px;
@@ -129,7 +129,7 @@ body, html {
 }
 
 input[type=text], select, textarea {
-    width: 875px; 
+    width: 90%; 
     padding: 12px; 
     border: 1px solid #ccc; 
     border-radius: 4px; 
@@ -154,4 +154,81 @@ input[type=submit]:hover {
 .container {
     border-radius: 5px;
     padding: 20px;
+    width: 100%;
 }
+
+
+@media (max-width: 980px){
+   #navwrap {
+        left: 69%;
+    }
+}
+
+@media (max-width: 768px){
+    #infobox{
+        width: 100%;
+    }
+    #navwrap {
+        left: 64%;
+    }
+    #img{
+        width: 70%;
+        height: 70%;
+    }
+ }
+
+ @media (max-width: 640px){
+ 
+    #myname{
+        position: relative;
+        bottom: 163px;
+        right: 32px;
+        height: 80px;
+        width: 112%;
+        color: #ffff;
+        text-align: center;
+        line-height: 80px;
+        background: #4aaaa5;
+    }
+
+    #header{
+        width: 100%;
+        height: 60px;
+        background: #ffff;
+        margin-top: 80px;
+        border-bottom: 2px solid #cccccc; 
+    }
+
+
+    #navwrap {
+        left: 32%;
+        top:30%;
+    }
+ 
+   #img{
+       width: 100%;
+       height: 100%;
+   }
+
+}
+
+@media (max-width: 570px){
+#navwrap {
+    left: 27%;
+    top:30%;
+}
+}
+
+@media (max-width: 490px){
+    #navwrap {
+        left: 25%;
+        top:30%;
+    }
+    }
+
+    @media (max-width: 450px){
+        #navwrap {
+            left: 23%;
+            top:30%;
+        }
+        }
